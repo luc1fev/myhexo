@@ -38,5 +38,5 @@ rss_url: \#
 footer_about: "但愿本网站会持续更新. 对于网站有任何建议可以email我"
 
 # Footer Copyright Line
-footer_copyright: "Lucifer @ 2019. All right reserved | Thanks for <a href=\"https://github.com/klugjo\">Jonathan Klughertz</a>"
+footer_copyright: "Thanks for <a href=\"https://github.com/klugjo\">Jonathan Klughertz</a> | Powered by Hexo <a href=\"https://hexo.io\"> Hexo.io </a>  | Lucifer @ 2019. All right reserved"
 
