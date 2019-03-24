@@ -19,26 +19,24 @@ archive_date_format: MMM YYYY
 # Comments.
 comments:
   # Disqus comments
-  disqus_shortname:
+  disqus_shortname: 
 
 # Google Analytics Tracking ID
-google_analytics:
+google_analytics: UA-136787955-1
+
 
 # Social Accounts
 twitter_url: https://twitter.com/?lang=en
 facebook_url: https://www.facebook.com/
 instagram_url: https://www.instagram.com/
 dribble_url: https://dribbble.com/
-github_url: https://github.com/klugjo/hexo-theme-alpha-dust
-googleplus_url: https://plus.google.com/
-behance_url: https://www.behance.net/
-fivehundredpx_url: https://500px.com/
-email_url: test@example.com
+github_url: https://github.com/luc1fev
+email_url: leonidas8192{at}gmail.com
 rss_url: \#
 
 # Footer About Text
-footer_about: "This theme was developed by <a href=\"https://github.com/klugjo\">Jonathan Klughertz</a>. The source code is available on Github. Create Websites. Make Magic."
+footer_about: "但愿本网站会持续更新. 对于网站有任何建议可以email我"
 
 # Footer Copyright Line
-footer_copyright: "@Untitled. All right reserved | Design & Hexo <a href=\"http://www.codeblocq.com/\">Jonathan Klughertz</a>"
+footer_copyright: "Lucifer @ 2019. All right reserved | Thanks for <a href=\"https://github.com/klugjo\">Jonathan Klughertz</a>"
 
