@@ -74,20 +74,20 @@ cd 到 下载的 font 里再 `./install.sh` 安装 powerline 字体库
 
 这时设置iTerm2 也会有刷新.
 preferences 里点 profiles, 右边 text 里把 regular font 和 Non-Ascii font 都设置成 powerline 的字体,或者直接搜索
-![截图](./images/iTemText.png)
+![截图](/images/iTemText.png)
 
-#### 配色
+### 配色
 #### solarized
 
 [solarized 方案 github](https://github.com/altercation/solarized)
 
 用来设置 iTerm 配色
 
- 双击 `solarized/iterm2-colors-solarized` 在文件夹里 `Solarized Dark.itermcolors` 或 `Solarized Light.itermcolors`,他会导入到 iTerm 中
+ 双击在`solarized/iterm2-colors-solarized`文件夹里的 `Solarized Dark.itermcolors` 或 `Solarized Light.itermcolors`,他会导入到 iTerm 中
 
 接着在profiles 的 color 标签右下角 color presents 选中 solarized
 
-![color](source/images/itermColor.png)
+![color](/images/itermColor.png)
 
 #### agnoster
 
