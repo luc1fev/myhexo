@@ -10,14 +10,9 @@ tags: 工具使用
 
 ---
 
-(<!-- toc -->) 
+<!-- toc --> 
 
 [出处1](https://www.jianshu.com/p/7de00c73a2bb)
-
-# iTerm 2 相关
-
-## 主题/色彩/字符
-
 
 
 ## 插件配置
@@ -43,9 +38,11 @@ tags: 工具使用
     Action: Run Silent Coprocess
     Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
     Instant: checked
-```
+```  
 
+---
 
+## 主题/色彩/字符
 
 ### 安装 oh-my-zsh `zsh 主要插件`
 
@@ -53,25 +50,23 @@ tags: 工具使用
 > or
 > wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
 
----
 
-### 用 powerline 美化
+
+### 用 powerline 美化  
+
 #### 安装库
 
 
 
-安装 pip`sudo easy_install pip`
+安装 pip`sudo easy_install pip`  
 
 安装power line  `pip install powerline-status`
 [github](https://github.com/powerline/powerline)
 
 
+####  给iTerm2 设置 powerline字体  
 
-
-
-####  给iTerm2 设置 powerline字体
-
-##### 给iTerm 安装字体库
+##### 给iTerm 安装字体库  
 
 > git clone https://github.com/powerline/fonts.git
 
