@@ -11,28 +11,33 @@ tags: 工具使用
 
 [出处1](https://www.jianshu.com/p/7de00c73a2bb)
 
-
+## .zshrc 配置
+echo export HISTSIZE=10000 >>~/.zshrc
+echo setopt HIST_IGNORE_DUPS >>~/.zshrc
+echo setopt AUTO_PUSHD >>~/.zshrc
 ## 工具插件
 
 ### install for zsh 
+
 
 #### autojump 
 on mac brew install autojump
 vi ~/.zshrc
 
 
-remember to add your plugins into .zshrc plugins line!
+> remember to add your plugins into .zshrc plugins line!
 
 ### Vim 配置
-echo syntax on >> ~/.vimrc
-echo set background=dark >> ~/.vimrc
-echo set number >> ~/.vimrc
+
+> echo syntax on >> ~/.vimrc
+> echo set background=dark >> ~/.vimrc
+> echo set number >> ~/.vimrc
 
 
 #### Vim 美化 
-git clone git://github.com/altercation/solarized.git
-mkdir -p ~/.vim/colors
-cp solarized/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
+> git clone git://github.com/altercation/solarized.git
+> mkdir -p ~/.vim/colors
+> cp solarized/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
 
 
 echo colorscheme solarized >> ~/.vimrc
@@ -153,6 +158,9 @@ echo colorscheme solarized >> ~/.vimrc
 > 保存退出
 
 重新开启一个对话!
+
+---
+[更多](http://macshuo.com/?p=676)
 
 
 
