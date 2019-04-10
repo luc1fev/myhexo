@@ -32,13 +32,15 @@ tags: 工具使用
 
 在ITerm2中对应的profile中“Advance”->"Trigger" 中填入：
 
+在ITerm2中对应的profile中“Advance”->"Trigger" 中填入：
+    
 ```
-    在ITerm2中对应的profile中“Advance”->"Trigger" 中填入：
     Regular expression: rz waiting to receive.\*\*B0100
     Action: Run Silent Coprocess
     Parameters: /usr/local/bin/iterm2-send-zmodem.sh
     Instant: checked
-
+```
+```
     Regular expression: \*\*B00000000000000
     Action: Run Silent Coprocess
     Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
@@ -76,8 +78,8 @@ cd 到 下载的 font 里再 `./install.sh` 安装 powerline 字体库
 preferences 里点 profiles, 右边 text 里把 regular font 和 Non-Ascii font 都设置成 powerline 的字体,或者直接搜索
 ![截图](/images/iTemText.png)
 
-### 配色
-#### solarized
+#### 配色
+##### solarized
 
 [solarized 方案 github](https://github.com/altercation/solarized)
 
@@ -89,7 +91,7 @@ preferences 里点 profiles, 右边 text 里把 regular font 和 Non-Ascii font 
 
 ![color](/images/itermColor.png)
 
-#### agnoster
+##### agnoster
 
 这是显示`oh-my-zsh`命令行特殊字符的插件
 
@@ -107,7 +109,7 @@ cd 到包里面 `./insttall` 会安装到`~/.oh-my-zsh/themes` 中
 
 `cd ~/.oh-my-zsh`
 
-到你.oh-my-zsh 的包
+到你`.oh-my-zsh/custom/plugins`包
 
 git clone git://github.com/zsh-users/zsh-syntax-highlighting.git`
 
@@ -116,6 +118,9 @@ git clone git://github.com/zsh-users/zsh-syntax-highlighting.git`
 找到 plugins 这行后 修改为`plugins=(OtherPlugin zsh-syntax-highlingting AnotherPlugin)`
 
 后面追加启动路径 `source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
+保存退出
+
+重新开启一个对话!
 
 
 
