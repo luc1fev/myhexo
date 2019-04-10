@@ -53,50 +53,70 @@ or
 
 `wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh`
 
-### 安装 power line `样式`
+### 用 powerline 美化
+#### 安装库
 
+安装 pip`sudo easy_install pip`
+
+安装power line  `pip install powerline-status`
 [github](https://github.com/powerline/powerline)
 
-查看 power line 状态 `pip install powerline-status`
+####  给iTerm2 设置 powerline字体
 
-安装 power line `sudo easy_install pip`
+##### 给iTerm 安装字体库
 
-### 安装字体库
+'git clone https://github.com/powerline/fonts.git'
 
-cd 到 install.sh 再 ./install.sh 安装 powerline 字体库
+cd 到 下载的 font 里再 `./install.sh` 安装 powerline 字体库
+样式样本在`fonts/samples/All.md` 里
 
-会自动到`/Users/superdanny/Library/Fonts`
+他们会自动复制到到`/Users/superdanny/Library/Fonts`
 
-### 设置 iTerm2 字体
+这时设置iTerm2 也会有刷新.
+preferences 里点 profiles, 右边 text 里把 regular font 和 Non-Ascii font 都设置成 powerline 的字体,或者直接搜索
+![截图](./images/iTemText.png)
 
-preferences 里点 profiles, 右边 text 里把 regular font 和 Non-Ascii font 都设置成 powerline 的字体
-
-### 配色
-
+#### 配色
 #### solarized
 
 [solarized 方案 github](https://github.com/altercation/solarized)
 
 用来设置 iTerm 配色
 
-在方案里 `solarized/iterm2-colors-solarized`  双击 `Solarized Dark.itermcolors` 和 `Solarized Light.itermcolors` 导入到 iTerm 中
+ 双击 `solarized/iterm2-colors-solarized` 在文件夹里 `Solarized Dark.itermcolors` 或 `Solarized Light.itermcolors`,他会导入到 iTerm 中
 
-接着在profiles 的 color 中 load presents 选中 solarized 
+接着在profiles 的 color 标签右下角 color presents 选中 solarized
+
+![color](source/images/itermColor.png)
 
 #### agnoster
 
+这是显示`oh-my-zsh`命令行特殊字符的插件
+
 [agnoster 方案 github](https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor)
 
-用来设置`oh-my-zsh`命令行特殊字符
+依旧clone 文件到一个地方先
 
-在包里面 `./insttall.sh` 会安装到`~/.oh-my-zsh/themes` 中
+`git clone https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor.git` 
 
-再在 zsh 的配置文件 `.zshrc` 中 把`ZSH_THEME` 后改成 agnoster 
+cd 到包里面 `./insttall` 会安装到`~/.oh-my-zsh/themes` 中
 
-#### 高亮 highlighting (感觉有问题)
+接着在 zsh 的配置文件 `.zshrc` 中 把`ZSH_THEME` 后改成 agnoster 
 
-`git clone git://github.com/zsh-users/zsh-syntax-highlighting.git`
+#### 高亮 highlighting 
 
-接着在 `.zshrc` 中添加 `source XXX/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
+`cd ~/.oh-my-zsh`
 
-同时 到`~/.oh-my-zsh/custom/plugins` 中打开 `.zshrc` 添加`plugins=(zsh-syntax-highlingting)`
+到你.oh-my-zsh 的包
+
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git`
+
+编辑 `.zshrc` 
+
+找到 plugins 这行后 修改为`plugins=(OtherPlugin zsh-syntax-highlingting AnotherPlugin)`
+
+后面追加启动路径 `source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
+
+
+
+
