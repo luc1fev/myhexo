@@ -5,9 +5,6 @@ tags: 工具使用
 ---
 
 
-
-
-
 ---
 
 <!-- toc --> 
@@ -15,7 +12,31 @@ tags: 工具使用
 [出处1](https://www.jianshu.com/p/7de00c73a2bb)
 
 
-## 插件配置
+## 工具插件
+
+### install for zsh 
+
+#### autojump 
+on mac brew install autojump
+vi ~/.zshrc
+
+
+remember to add your plugins into .zshrc plugins line!
+
+### Vim 配置
+echo syntax on >> ~/.vimrc
+echo set background=dark >> ~/.vimrc
+echo set number >> ~/.vimrc
+
+
+#### Vim 美化 
+git clone git://github.com/altercation/solarized.git
+mkdir -p ~/.vim/colors
+cp solarized/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
+
+
+echo colorscheme solarized >> ~/.vimrc
+
 
 ### Lrzsz 配置
 
@@ -38,11 +59,7 @@ tags: 工具使用
     Action: Run Silent Coprocess
     Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
     Instant: checked
-```  
-
----
-
-## 主题/色彩/字符
+```
 
 ### 安装 oh-my-zsh `zsh 主要插件`
 
@@ -50,7 +67,10 @@ tags: 工具使用
 > or
 > wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
 
+---
 
+
+## 美化插件
 
 ### 用 powerline 美化  
 
@@ -58,7 +78,7 @@ tags: 工具使用
 
 
 
-安装 pip`sudo easy_install pip`  
+安装 pip `sudo easy_install pip`  
 
 安装power line  `pip install powerline-status`
 [github](https://github.com/powerline/powerline)
@@ -66,21 +86,8 @@ tags: 工具使用
 
 ####  给iTerm2 设置 powerline字体  
 
-##### 给iTerm 安装字体库  
 
-> git clone https://github.com/powerline/fonts.git
-
-> cd 到 下载的 font 里再 `./install.sh` 安装 powerline 字体库, 样式样本在 `fonts/samples/All.md` 里
-> 他们会自动复制到到`/Users/superdanny/Library/Fonts`
-
-> 这时设置iTerm2 也会有刷新.
-> preferences 里点 profiles, 右边 text 里把 regular font 和 Non-Ascii font 都设置成 powerline 的字体,或者直接搜索
-
-![截图](/images/iTemText.png)
-
-
-
-#### 配色
+#### iTerm配色
 
 ##### solarized
 
@@ -95,12 +102,9 @@ tags: 工具使用
 ![color](/images/itermColor.png)
 
 
+#### agnoster
 
-
-
-##### agnoster
-
-这是显示`oh-my-zsh`命令行特殊字符的插件
+这是让`oh-my-zsh`出现特殊字符的插件
 
 [agnoster 方案 github](https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor)
 
@@ -113,10 +117,26 @@ tags: 工具使用
 > 接着在 zsh 的配置文件 `.zshrc` 中 把`ZSH_THEME` 后改成 agnoster 
 
 
+##### 给iTerm 安装字体库  
 
----
+用来让 iTerm2 显示特殊字符
 
-#### 高亮 highlighting 
+> git clone https://github.com/powerline/fonts.git
+
+> cd 到 下载的 font 里再 `./install.sh` 安装 powerline 字体库, 样式样本在 `fonts/samples/All.md` 里
+> 他们会自动复制到到`/Users/superdanny/Library/Fonts`
+
+> 这时设置iTerm2 也会有刷新.
+> preferences 里点 profiles, 右边 text 里把 regular font 和 Non-Ascii font 都设置成 powerline 的字体,或者直接搜索
+
+![截图](/images/iTemText.png)
+
+
+
+
+### 高亮 highlighting 
+
+这是在用 zsh 输入时,高亮语法的插件
 
 > `cd ~/.oh-my-zsh`
 
