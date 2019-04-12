@@ -1,7 +1,7 @@
 ---
 title: mac 工具和命令
 date: 2019-04-10 02:33:48
-tags:
+Tags:tools
 ---
 
 <!-- toc --> 
@@ -10,7 +10,6 @@ tags:
 ---
 
 [mac 预览 markdown](https://github.com/toland/qlmarkdown)
-
 
 ---
 

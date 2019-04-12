@@ -1,7 +1,7 @@
 ---
 title: iTerm2 && oh my zsh
 date: 2019-03-24 08:08:55
-tags: 工具使用
+tags: tools
 ---
 
 
