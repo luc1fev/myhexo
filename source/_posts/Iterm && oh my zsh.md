@@ -7,7 +7,9 @@ tags: tools
 
 ---
 
-<!-- toc --> 
+
+<!-- toc -->
+<!-- more --> 
 
 [出处1](https://www.jianshu.com/p/7de00c73a2bb)
 
