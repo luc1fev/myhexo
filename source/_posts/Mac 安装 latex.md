@@ -1,11 +1,10 @@
 ---
-​---
 title: Mac 安装 latex
 date: 2019-04-11 10:35:55
 tags: 工具使用
-​---
 ---
 
+---
 
 
 [下载 latex for mac](http://www.tug.org/mactex/morepackages.html)
@@ -20,4 +19,4 @@ tags: 工具使用
 
 在 Latexit Preferences 里面 的 typesetting 设置成这样
 
-![Screen Shot 2019-04-11 at 10.33.22 AM](/Users/cd/Documents/web/myhexo/source/Screen Shot 2019-04-11 at 10.33.22 AM.png)
+![latex](/images/Latexit.png)
